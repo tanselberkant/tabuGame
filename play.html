@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+  <link rel="stylesheet" href="./css/bootstrap.css">
+
+  <title>Tabu Oyunu</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <h2 class="text-center mt-5">Ankara Üniversitesi Spor Bilimleri Fakültesi Şenlikleri TABU OYUNU</h2> 
+        <div id="gameStarterInfoContainer">                
+            <div style="font-size: 16px;font-weight: 700;" id="gameStarterInfo" class="alert alert-dark text-center showElement" role="alert">
+                Başlamak için entera basınız
+            </div>
+            <div id="gamePlayInfo" style="font-size: 16px; font-weight: 700;" class="text-center alert alert-dark hideElement">
+                "T" tuşu ile doğru sayısını arttırabilir , "Space" tuşu ile pas geçebilirsiniz
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p id="countdown"></p>
+            </div>
+            <div class="col-6">
+                <p class="text-center">Doğru sayısı <span class="font-weight-bold" id="trueCounter">0</span></p>
+            </div>
+        </div>
+        
+        
+        <div id="tabuGameContainer" class="hideElement">
+            <div id="tabuCardContainer" class="row mt-3">
+                <div class="card bg-primary col-6 offset-3" >
+                    <div class="card-header text-center">
+                        <h4 id="tabuMainWord" class="mt-2">Hakem</h4>
+                    </div>
+                    <div class="card-body text-center" id="tabuForbiddenWordsContainer">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="endGameContainer" class="hideElement">
+            <div class="row mt-3">
+                <div class="card bg-dark col-6 offset-3">
+                    <div class="card-header text-center text-white">
+                        <h4 class="mt-2">Doğru sayısı <span class="text-primary" id="resultHeader">0</span></h4>
+                    </div>
+                    <div class="card-body text-center text-white-50">
+                        <h6>Teşekkürler !</h6>
+                        <button id="restartGameBtn" type="button" class=" mt-2 btn btn-primary btn-lg">Tekrar Oyna!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src='./js/tabu.js'></script>
+<script src="./js/tabuGame.js"></script>
+</body>
+</html>

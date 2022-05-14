@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+ul li {
+    margin-left: -40px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.hideElement {
+    display: none;    
+}
+
+.showElement {
+    display: block;
+}
