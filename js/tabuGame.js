@@ -765,5 +765,230 @@ tabuData = [
       four: 'Bone',
     },
   },
+  {
+    word: 'Poomse',
+    forbidden: {
+      first: 'Hareket',
+      second: 'Sıra',
+      third: 'Taekwondo',
+      four: 'Savunma',
+    },
+  },
+  {
+    word: 'Aparkat',
+    forbidden: {
+      first: 'Alt',
+      second: 'Dövüş',
+      third: 'Yumruk',
+      four: 'Kick Boks',
+    },
+  },
+  {
+    word: 'Bullseye',
+    forbidden: {
+      first: 'Orta',
+      second: 'Dart',
+      third: 'Kırmızı',
+      four: 'Merkez',
+    },
+  },
+  {
+    word: 'Dambıl',
+    forbidden: {
+      first: 'Fitness',
+      second: 'Kas',
+      third: 'Salon',
+      four: 'Ağırlık',
+    },
+  },
+  {
+    word: 'Halter',
+    forbidden: {
+      first: 'Kaldırmalık',
+      second: 'Cep Herkülü',
+      third: 'Ağırlık',
+      four: 'Naim Süleymanoğlu',
+    },
+  },
+  {
+    word: 'Kuşak',
+    forbidden: {
+      first: 'Karete',
+      second: 'Kemer',
+      third: 'Taekwondo',
+      four: 'Kick Boks',
+    },
+  },
+  {
+    word: 'Tatami',
+    forbidden: {
+      first: 'Spor Salonu',
+      second: 'Minder',
+      third: 'Yer',
+      four: 'Zemin',
+    },
+  },
+  {
+    word: 'Çiğ Sondası',
+    forbidden: {
+      first: 'Tırmanış',
+      second: 'Doğa',
+      third: 'Kar',
+      four: 'Dağ',
+    },
+  },
+  {
+    word: 'Pedal',
+    forbidden: {
+      first: 'Çevirmek',
+      second: 'Hız',
+      third: 'Bisiklet',
+      four: 'Tekerlek',
+    },
+  },
+  {
+    word: 'Alex De Souza',
+    forbidden: {
+      first: 'Futbol',
+      second: 'On Numara',
+      third: 'Fenerbahçe',
+      four: 'Efsane',
+    },
+  },
+  {
+    word: 'Karabina',
+    forbidden: {
+      first: 'İp',
+      second: 'Yük',
+      third: 'Halat',
+      four: 'Tırmanış',
+    },
+  },
+  {
+    word: 'Tüy Top',
+    forbidden: {
+      first: 'Badminton',
+      second: 'Tenis',
+      third: 'File',
+      four: 'Raket',
+    },
+  },
+  {
+    word: 'Pinpon Topu',
+    forbidden: {
+      first: 'Masa Tenisi',
+      second: 'Top',
+      third: 'Küçük',
+      four: 'Raket',
+    },
+  },
+  {
+    word: 'Oryantiring',
+    forbidden: {
+      first: 'Harita',
+      second: 'Doğa',
+      third: 'Orman',
+      four: 'Bayrak',
+    },
+  },
+  {
+    word: 'Sörf',
+    forbidden: {
+      first: 'Tahta',
+      second: 'Deniz',
+      third: 'Dalga',
+      four: 'Su',
+    },
+  },
+  {
+    word: 'Tekme',
+    forbidden: {
+      first: 'Yumruk',
+      second: 'Ayak',
+      third: 'Vuruş',
+      four: 'Darbe',
+    },
+  },
+  {
+    word: 'Vole',
+    forbidden: {
+      first: 'Şut',
+      second: 'Zıplamak',
+      third: 'Ayak',
+      four: 'Still',
+    },
+  },
+  {
+    word: 'Frikik',
+    forbidden: {
+      first: 'Baraj',
+      second: 'Serbest Vuruş',
+      third: 'Hakem',
+      four: 'Faul',
+    },
+  },
+  {
+    word: 'Bisiklet',
+    forbidden: {
+      first: 'Tekerlek',
+      second: 'Pedal',
+      third: 'Sele',
+      four: 'Zincir',
+    },
+  },
+  {
+    word: 'Mekik',
+    forbidden: {
+      first: 'Kas',
+      second: 'Karın',
+      third: 'Şınav',
+      four: 'Uzay',
+    },
+  },
+  {
+    word: 'Squad',
+    forbidden: {
+      first: 'Kalça',
+      second: 'Bacak',
+      third: 'Çömelmek',
+      four: 'Oturmak',
+    },
+  },
+  {
+    word: 'Fernando Muslera',
+    forbidden: {
+      first: 'Galatasaray',
+      second: 'Kaleci',
+      third: 'File Bekçisi',
+      four: 'Panter',
+    },
+  },
+  {
+    word: 'Kaykay',
+    forbidden: {
+      first: 'Paten',
+      second: 'Scooter',
+      third: 'Sürmek',
+      four: 'Tekerlek',
+    },
+  },
+  {
+    word: 'Pilates',
+    forbidden: {
+      first: 'Reformer',
+      second: 'Yoga',
+      third: 'Nefes',
+      four: 'Ebru Şallı',
+    },
+  },
+  {
+    word: 'Buz Hokeyi',
+    forbidden: {
+      first: 'Kanada',
+      second: 'Paten',
+      third: 'Sopa',
+      four: 'Disk (Pak)',
+    },
+  },  
 ];
 console.log(tabuData.length);

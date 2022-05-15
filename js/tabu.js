@@ -72,8 +72,6 @@ restartGameBtn.addEventListener('click', () => {
 });
 
 // Tabu Game
-tabuData = [];
-
 let card;
 const getRandomTabuData = () => {
   card = tabuData[Math.floor(Math.random() * tabuData.length)];
