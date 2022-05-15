@@ -51,7 +51,7 @@ const trueCountIncreaser = () => {
 addEventListener('keyup', (e) => {
   e.preventDefault();
   if (e.keyCode === 84) {
-    console.log(timeleft);
+    // console.log(timeleft);
     if (timeleft > 0 && timeleft < 59) {
       trueCountIncreaser();
     }
@@ -81,10 +81,14 @@ const getRandomTabuData = () => {
   tabuMainWord.innerHTML = card.word.toUpperCase();
   tabuForbiddenWordsContainer.innerHTML = '';  
   const wordList = document.createElement('ul');
+  let forbiddenWordHeader = document.createElement('li');
+  forbiddenWordHeader.classList.add('titleRed');
+  forbiddenWordHeader.innerHTML = '~~~ Yasaklı Kelimeler ~~~'
+  wordList.appendChild(forbiddenWordHeader);
   
   forbiddenWordsArray.map((word) => {
-    let forbiddenWord = document.createElement('li');
-    forbiddenWord.innerHTML = word;
+    let forbiddenWord = document.createElement('li');  
+    forbiddenWord.innerHTML = word;    
     wordList.appendChild(forbiddenWord);
   });
   tabuForbiddenWordsContainer.appendChild(wordList);

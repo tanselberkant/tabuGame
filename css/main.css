@@ -23,3 +23,9 @@ p {
 .showElement {
     display: block;
 }
+
+.titleRed {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
